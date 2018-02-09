@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest", "CodingTest\CodingTest.csproj", "{BE5D4844-42FC-47D2-90E2-410BBF945036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE5D4844-42FC-47D2-90E2-410BBF945036}.Debug|x86.ActiveCfg = Debug|x86
+		{BE5D4844-42FC-47D2-90E2-410BBF945036}.Debug|x86.Build.0 = Debug|x86
+		{BE5D4844-42FC-47D2-90E2-410BBF945036}.Release|x86.ActiveCfg = Release|x86
+		{BE5D4844-42FC-47D2-90E2-410BBF945036}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
