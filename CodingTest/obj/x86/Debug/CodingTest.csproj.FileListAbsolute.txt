@@ -1,0 +1,5 @@
+/Users/samphorskhlok/Documents/GitHub/CodingTest/CodingTest/bin/Debug/CodingTest.exe
+/Users/samphorskhlok/Documents/GitHub/CodingTest/CodingTest/bin/Debug/CodingTest.pdb
+/Users/samphorskhlok/Documents/GitHub/CodingTest/CodingTest/obj/x86/Debug/CodingTest.csproj.CoreCompileInputs.cache
+/Users/samphorskhlok/Documents/GitHub/CodingTest/CodingTest/obj/x86/Debug/CodingTest.exe
+/Users/samphorskhlok/Documents/GitHub/CodingTest/CodingTest/obj/x86/Debug/CodingTest.pdb
