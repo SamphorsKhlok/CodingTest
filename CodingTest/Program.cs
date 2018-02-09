@@ -45,6 +45,20 @@ namespace CodingTest
                 return result != null ? result.DisplayCategoy(): "Not found";
             }
 
+            void GetListOfNthLevel(int n){
+                Console.Write(n + " level has \n");
+
+                foreach(var i in data){
+                    Category c = i.Value;
+                    if(c.LevelCounter() == n){
+                        Console.Write(c.CategoryId + "\n");
+                    }
+                }
+            }
+
+            GetListOfNthLevel(2);
+            GetListOfNthLevel(3);
+
         }
     }
 
@@ -69,6 +83,7 @@ namespace CodingTest
                  ", Keywords= " + this.GetKeyword()+ "\n";
         }
 
+        //loop itself till get the last parent
         public string GetKeyword(){
             if(this.ParentCategory != null){
                 return this.ParentCategory.GetKeyword();
@@ -77,6 +92,21 @@ namespace CodingTest
             return this.keyword;
         }
 
-        public int GetCategoryId { get; set; }
+        public int GetCategoryId() { 
+            return this.CategoryId;
+        }
+
+        //let by number of level
+        public int LevelCounter(){
+            int counter = 1;
+
+            if (this.ParentCategory != null)
+            {
+                return counter + this.ParentCategory.LevelCounter();
+            }
+
+            return counter;
+        }
+
     }
 }
